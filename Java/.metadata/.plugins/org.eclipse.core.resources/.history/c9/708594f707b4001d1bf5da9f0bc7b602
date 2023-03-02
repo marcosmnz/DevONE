@@ -1,0 +1,14 @@
+
+public class PruebaConstructor {
+public static void main(String[] args) {
+
+	Cuenta cuenta = new Cuenta(55);
+	Cuenta cuenta1 = new Cuenta(55);
+	Cuenta cuenta2 = new Cuenta(55);
+	Cuenta cuenta3 = new Cuenta(55);
+	Cuenta cuenta4 = new Cuenta(55);
+	Cuenta cuenta5 = new Cuenta(55);
+	System.out.println(cuenta.getAgencia());
+	
+}
+}
